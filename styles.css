@@ -1,3 +1,50 @@
 body{
     background-color: aliceblue;
 }
+
+.btn-container {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.recipe-btn {
+    border-radius: 400px;
+    border-color: black;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+#lasagna{
+    background-image: url(recipes/images/Lasagne-recipe-3-main.webp);
+}
+
+#focaccia{
+    background-image: url(recipes/images/focaccia.jpeg);
+}
+
+#alfredo{
+    background-image: url(recipes/images/alfredo.jpeg);
+}
+
+.home-btn {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    top: 200px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.web-title{
+    text-align: center;
+    font-family: Verdana, "Times New Roman", sans-serif;
+    font-size: 2.5rem;
+}
+
